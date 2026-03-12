@@ -30,3 +30,8 @@ The service will respond with a JSON object. If the request is successful, the r
     "ticket_id": 482931
 }
 ```
+## UML Sequence Diagram
+
+The diagram below illustrates how the Test Program sends a POST request to the RNG Microservice and how the microservice validates the API key and returns a response.
+
+![RNG Microservice UML Sequence Diagram](rng_microservice_uml_sequence.png)
